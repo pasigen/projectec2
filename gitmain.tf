@@ -84,7 +84,7 @@ resource "aws_instance" "web" {
   ami             = "ami-0103f211a154d64a6"
   instance_type   = "t2.micro"
   subnet_id       = aws_subnet.mainpubsub.id
-  security_groups = ["sg-0a9c701d5338c705c"]
+  security_groups = ["sg-094a8c714302e2bd3"]
   
 
 tags = {
